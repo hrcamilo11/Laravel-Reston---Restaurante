@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/images/hero-bg.jpg');
+    background-size: cover;
+}
+
+.hero_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(19, 18, 18, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.user-container {
+    display: flex; /* Usamos flexbox para alinear los elementos en fila */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    align-items: flex-start; /* Alinear los elementos al inicio */
+    width: 100%; /* Asegúrate de que ocupe el ancho completo del contenedor padre */
+}
+
+.login-form-container {
+    width: 60%; /* Ajusta el ancho como necesites */
+    padding: 20px;
+    margin-right: 20px; /* Espacio entre formularios e imagen */
+}
+
+.image-form-container {
+    margin-left: 20px; /* Espacio entre formularios e imagen */
+    width: 35%; /* Ajusta el ancho como necesites */
+    text-align: center; /* Centrar el contenido dentro del contenedor */
+}
+
+/* Estilo adicional para centrar la imagen */
+#profile-image {
+    display: block; /* Asegúrate de que la imagen se muestre como bloque */
+    margin: 0 auto; /* Centra la imagen */
+}
+
+.login-title {
+    color: #FFD700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* El resto de tus estilos permanece igual */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background: rgba(255, 255, 255, 0.3); /* Fondo semitransparente para inputs */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+input[type="checkbox"] {
+    accent-color: #FFD700;
+}
+
+label {
+    color: #fff;
+}
+
+a {
+    color: #FFD700; /* Color dorado */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.x-primary-button {
+    background-color: #FFD700; /* Color dorado */
+    color: #ffffff; /* Color de texto blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Asegura que no haya subrayado en los enlaces */
+    display: inline-block; /* Permite el padding y el tamaño */
+}
+
+.x-primary-button:hover {
+    background-color: #e0b600; /* Color dorado más claro al pasar el cursor */
+}
+
+/* Estilo para el botón de Inicio */
+/* Estilo para el botón de Inicio */
+.image-form-container > div {
+    margin-top: 300px; /* Mueve el botón 300px hacia abajo */
+    margin-left: 200px; /* Mueve el botón 10px hacia la derecha */
+    text-align: center; /* Centrar el texto */
+}

@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('ruta/a/tu/fondo.jpg') no-repeat center center fixed; /* Cambia la ruta a la imagen de fondo */
+    background-size: cover;
+}
+
+.hero_area {
+    position: relative;
+    width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
+    height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el formulario, más opaco */
+    border-radius: 10px;
+    padding: 40px; /* Aumenta el padding */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada */
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* Mantén este margen para separación */
+    text-align: center; /* Centra el texto */
+}
+
+.text-lg {
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente según tus necesidades */
+    line-height: 1.4; /* Ajusta el espacio entre líneas para mayor claridad */
+    max-width: 600px; /* Limita el ancho máximo del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background: rgba(255, 255, 255, 0.4); /* Fondo semitransparente para inputs, más claro */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px; /* Aumenta el padding */
+    width: 100%;
+    margin-top: 10px; /* Aumenta el margen superior */
+    font-size: 18px; /* Aumenta el tamaño de la fuente en los inputs */
+}
+
+.x-primary-button {
+    background-color: #FFD700; /* Color dorado */
+    color: #000; /* Color de texto negro */
+    padding: 20px 40px; /* Aumenta el padding del botón para hacerlo más grande */
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px; /* Aumenta el tamaño de la fuente del botón */
+    width: 100%; /* Ocupar todo el ancho disponible si es necesario */
+    max-width: 300px; /* Establece un ancho máximo */
+}
+
+.x-primary-button:hover {
+    background-color: #e0b600; /* Color dorado más claro al pasar el cursor */
+}
+
+input[type="checkbox"] {
+    accent-color: #FFD700;
+}
+
+label {
+    color: #fff;
+    font-size: 40px; /* Aumenta el tamaño de la fuente en etiquetas */
+}
+
+a {
+    color: #FFD700; /* Color dorado */
+    font-size: 18px; /* Aumenta el tamaño de la fuente para enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+}
