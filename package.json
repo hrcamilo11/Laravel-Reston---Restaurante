@@ -3,7 +3,20 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "watch": "vite build --watch",
+        "serve": "vite preview",
+        "lint": "vite lint",
+        "test": "vite test --coverage",
+        "cypress": "cypress open",
+        "cypress:run": "cypress run",
+        "test:watch": "vite test --watch",
+        "test:e2e": "cypress run",
+        "test:e2e:watch": "cypress run --watch",
+        "test:unit": "vitest",
+        "test:unit:watch": "vitest --watch",
+        "test:e2e:debug": "DEBUG_MODE=true cypress run",
+        "test:e2e:debug:watch": "DEBUG_MODE=true cypress run --watch"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
