@@ -46,17 +46,6 @@ RESTON sigue una arquitectura MVC (Modelo-Vista-Controlador) robusta y utiliza p
 | 🔀 Migraciones | Estructura de la base de datos | `database/migrations/` |
 | 🌱 Seeders | Datos iniciales | `database/seeders/` |
 
-## 🛠️ Requisitos Técnicos
-
-- PHP >= 8.1
-- Laravel 10.x
-- MySQL o PostgreSQL
-- Composer
-- Node.js y npm
-
-## 🚀 Instalación
-
-Sigue estos pasos detallados para configurar RESTON en tu entorno local:
 
 ### Prerrequisitos
 
