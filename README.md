@@ -179,4 +179,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 
 ---
 
-¡Gracias por tu interés en RESTON! 🙌 Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarnos directamente. ¡Buen provecho! 🍽️
+¡Gracias por tu interés en RESTON! 🙌 Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarnos directamente. ¡Buen provecho! 🍽️🍔
